@@ -10,9 +10,10 @@ android {
     defaultConfig {
         applicationId "com.suitmediatest"
         minSdk 19
-        targetSdk 33
+        targetSdk 31
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -36,7 +37,6 @@ android {
 }
 
 dependencies {
-
     //Circle Image && Glide
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.github.bumptech.glide:glide:4.15.0'
@@ -46,7 +46,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 
-    // Paging
+    //Paging
     implementation "androidx.paging:paging-runtime-ktx:3.1.1"
 
     //CORE
