@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SuitMediaTest</string>
+
+    <!-- MAIN ACTIVITY LAYOUT -->
+    <string name="name">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="check">CHECK</string>
+    <string name="next">NEXT</string>
+
+    <!-- SCREEN 2 ACTIVITY -->
+    <string name="second_screen">Second Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="dummy_name">John Doe</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="choose_a_user">Choose a User</string>
+    <string name="username">Username</string>
+
+    <!-- SCREEN 3 ACTIVITY -->
+    <string name="third_screen">Third Screen</string>
+    <string name="sample_name">Firstname Lastname</string>
+    <string name="sample_email">EMAIL@EMAIL.COM</string>
+    <string name="full_name_format">%s %s</string>
+
+
+    <!-- MENU -->
+    <string name="action_back">Back</string>
+    <string name="back">Back</string>
+</resources>
